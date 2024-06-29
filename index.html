@@ -1,25 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="Product.html">Product</a></li>
-            <li><a href="Blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="About us.html">About us</a></li>
-        </ul>
-        <h2>VIMMO-JOBS</h2>
-        <div class="icons">
-            <img src="/assets/MagnifyingGlass.svg" alt="">
-            <img src="/assets/Frame 2.svg" alt="">
-            <img src="/assets/Frame 3.svg" alt="">
+    <script defer src="app.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html" class="logo">VIMMO</a>
+
+      <ul class="navmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="/product page/product.html">Collections</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="/contact/Contact.html">Contact</a></li>
+      </ul>
+
+      <!-- <div class="nav-icon">
+            <a href="#"><i class='bx bx-search-alt'></i></a>
+            <a href="#"><i class='bx bx-user-circle'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+    
+            <div class="bx bx-menu" id="menu-icon"></div>
+    
+        </div> -->
+    </header>
+
+    <!-- hero-section  -->
+    <div class="hero-section">
+      <img src="/assets/hero-pics.png" alt="" />
+
+      <div class="hero-article">
+        <h2>Your Cozy Era</h2>
+        <p>Get peak comfy-chic <br />with new winter essentials</p>
+        <button>SHOP NOW</button>
+      </div>
+    </div>
+    <!-- shop_category_section -->
+    <h2 class="shop-category">Shop by Category</h2>
+    <div class="category-a">
+      <div>
+        <img src="/assets/cat1.png" alt="" />
+        <div class="category-txt">
+          <p>The Essential Organic Crew</p>
+          <p>$100</p>
         </div>
-    </nav>
-</body>
+      </div>
+      <div>
+        <img src="/assets/cat2.png" alt="" />
+        <div class="category-txt">
+          <p>The Waffle Long-Sleeve Crew</p>
+          <p>$60</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/cat3.png" alt="" />
+        <div class="category-txt">
+          <p>The Bomber Jacket Toasted Coconut</p>
+          <p>$148</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/cat4.png" alt="" />
+        <div class="category-txt">
+          <p>The Slim 4-Way Stretch Organic Jean Dark Indigo</p>
+          <p>$98</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/cat5.png" alt="" />
+        <div class="category-txt">
+          <p>Vintage Black</p>
+          <p>$30</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/cat6.png" alt="" />
+        <div class="category-txt">
+          <p>The Essential Organic Crew</p>
+          <p>$30</p>
+        </div>
+      </div>
+    </div>
+    <!-- shop-category-scetionB  -->
+    <h2 class="shop-category">Arrivals</h2>
+
+    <div class="category-b">
+      <div>
+        <img src="/assets/CAT1.jpg" alt="" />
+        <div class="arrivals">
+          <h1>New Arrivals</h1>
+          <button>SHOP THE LATEST</button>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/CAT2.jpg" alt="" />
+        <div class="arrivals">
+          <h1>Best-Sellers</h1>
+          <button>SHOP THE LATEST</button>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/CAT3.jpg" alt="" />
+        <div class="arrivals">
+          <h1>The Holiday Outfit</h1>
+          <button>SHOP OCCASION</button>
+        </div>
+      </div>
+    </div>
+    <!-- complimentery_section -->
+    <div class="compliment">
+      <div class="shipping">
+        <img src="/assets/icon1.png" alt="" />
+        <div>
+          <h2>Complimentary Shipping</h2>
+          <p>Enjoy free shipping on U.S. orders over $100.</p>
+        </div>
+      </div>
+      <div class="shipping">
+        <img src="/assets/icon 2.png" alt="" />
+        <div>
+          <h2>Consciously Crafted</h2>
+          <p>Designed with you and the planet in mind.</p>
+        </div>
+      </div>
+      <div class="shipping">
+        <img src="/assets/icon3.png" alt="" />
+        <div>
+          <h2>Come Say Hi</h2>
+          <p>We have 11 stores across the U.S.</p>
+        </div>
+      </div>
+    </div>
+    <!-- People are talking section -->
+    <div class="talking-section">
+      <div class="left-section">
+        <p>People Are talking</p>
+        <img src="/assets/rating.png" alt="" />
+        <p>
+          “Love this shirt! Fits perfectly and <br />
+          the fabric is thick without <br />
+          being stiff.”
+        </p>
+      </div>
+      <div class="right-section">
+        <img id="image" src="/assets/talking.png" alt="" />
+      </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <section class="contact">
+      <div class="footer-info">
+        <div class="first-footer-info">
+          <h4>Account</h4>
+          <p>Log In</p>
+          <p>Sign Up</p>
+          <p>Reedem GiftCard</p>
+
+          <div class="social-icon">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="second-info">
+          <h4>Company</h4>
+          <p>About</p>
+          <p>Environmental initiative</p>
+          <p>Factories</p>
+          <p>DEI</p>
+          <p>Farreers</p>
+          <p>international</p>
+          <p>Accessibility</p>
+        </div>
+        <div class="third second-info">
+          <h4>Get Help</h4>
+          <p>Help Center</p>
+          <p>Return Policy</p>
+          <p>Shipping Info</p>
+          <p>Bulk Orders</p>
+        </div>
+        <div class="fouth second-info">
+          <h4>Connect</h4>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Affiliates</p>
+          <p>Out Stores</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024, All Right Reserved.Designed by Miva Group C</p>
+      </div>
+    </section>
+  </body>
 </html>
