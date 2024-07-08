@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.logo{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: rgb(255, 0, 0);
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: red;
+}
+#menu-icon{
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+}
+/* section-01-banner-css*/
+.summer_stlye{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 30%;
+    border: black solid;
+}
+.background_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 9%;
+    left: 0%;
+    z-index: -1;
+    padding-bottom: 10%;
+}
+.background_image img{
+    width: 1310px;
+    height: 700px;
+}
+.image_content{
+    position: relative;
+    text-align: left;
+    padding: 45% 0 0 30px ;
+    margin-top: 5.5%;
+}
+/* section-02-text-css*/
+.text_content_1{
+    padding-top: 8%;
+}
+.text_content_1 hr{
+    border: black solid;
+    margin: 0px 50px 100px 50px;
+}
+.text_content_1 p{
+    text-align: left;
+    margin: 0px 87px 100px 87px;
+    font-size: large;
+}
+/* section-03-image-01 */
+.image_1 {
+    align-content: center;
+    margin: 0px 150px 100px 150px;
+}
+.image_1 img{
+    align-items: center;
+   width: 100%; 
+}
+/* section-04-text-02 */
+.text_content_2{
+    text-align: left;
+    margin: 0px 87px 100px 87px;
+    font-size: large;
+}
+.text_content_2 h1{
+    margin-bottom: 30px;
+}
+.text_content_2 p{
+    margin-bottom: 20px;
+}
+/* section-05-image-02-css*/
+.image_2 {
+    align-content: center;
+    margin: 0px 150px 100px 150px;
+}
+.image_2 img{
+    align-items: center;
+   width: 100%; 
+}
+/* section-06-text-03 */
+.text_content_3{
+    text-align: left;
+    margin: 0px 87px 100px 87px;
+    font-size: large;
+}
+.text_content_3 h1{
+    margin-bottom: 30px;
+}
+.text_content_3 p{
+    margin-bottom: 20px;
+}
+/* gallery-section */
+#text_edit{
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px 100px 20px 100px;
+    margin: 30px 100px 20px 100px;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+.box_1{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.mini_box p{
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 470;
+    width: 200px;
+    margin-left: 15%;
+}
+.mini_box span{
+    padding-left: 10px;
+}
+#space_1{
+    padding-left: 27px;
+}
+#space_2{
+    padding-left: 20px;
+}
+/* footer */
+.contact {
+    background-color: #f3f4f6;
+  }
+  .footer-info {
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+  }
+  .first-footer-info a {
+    width: 140px;
+    height: auto;
+  }
+  .footer-info h4 {
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .footer-info p {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.42s;
+  }
+  .footer-info p:hover {
+    color: red;
+  }
+  .social-icon i {
+    color: black;
+    margin-right: 1px;
+    font-size: 18px;
+    transition: all 0.42s;
+  }
+  .social-icon i:hover {
+    transform: scale(1.3);
+  }
+  .copyright {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+  }
