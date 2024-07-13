@@ -9,35 +9,41 @@
   </head>
 
   <body>
+    <div class="announcement-bar">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        🎉 AMAZING OFFER! 🎉 Enjoy a 100% discount on all our products! Shop now and pay absolutely nothing! Limited time
+        offer!
+      </marquee>
+    </div>
     <header>
       <a href="/index.html" class="logo">VIMMO</a>
 
       <ul class="navmenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/About/about.html">About</a></li>
         <li><a href="/product page/product.html">Collections</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="/Blog page/blog.html">Blog</a></li>
         <li><a href="/contact/Contact.html">Contact</a></li>
       </ul>
 
-      <!-- <div class="nav-icon">
+      <div class="nav-icon">
             <a href="#"><i class='bx bx-search-alt'></i></a>
             <a href="#"><i class='bx bx-user-circle'></i></a>
             <a href="#"><i class='bx bx-cart'></i></a>
     
-            <div class="bx bx-menu" id="menu-icon"></div>
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
     
-        </div> -->
+        </div>
     </header>
 
     <!-- hero-section  -->
     <div class="hero-section">
-      <img src="/assets/hero-pics.png" alt="" />
+      <img src="/assets/hero-pics.png" alt="" data-src="/assets/hero-pics.png" class="lazy-image"  />
 
       <div class="hero-article">
         <h2>Your Cozy Era</h2>
         <p>Get peak comfy-chic <br />with new winter essentials</p>
-        <button>SHOP NOW</button>
+        <button onclick="window.location.href='/product page/product.html'">SHOP NOW</button>
       </div>
     </div>
     <!-- shop_category_section -->
@@ -58,7 +64,7 @@
         </div>
       </div>
       <div>
-        <img src="/assets/cat3.png" alt="" />
+        <img src="/assets/cat3.png" alt=""  />
         <div class="category-txt">
           <p>The Bomber Jacket Toasted Coconut</p>
           <p>$148</p>
@@ -91,24 +97,24 @@
 
     <div class="category-b">
       <div>
-        <img src="/assets/CAT1.jpg" alt="" />
+        <img src="/assets/CAT1.jpg" alt="" data-src="/assets/CAT1.jpg" class="lazy-image"/>
         <div class="arrivals">
           <h1>New Arrivals</h1>
-          <button>SHOP THE LATEST</button>
+          <button onclick="window.location.href='/product page/product.html'">SHOP THE LATEST</button>
         </div>
       </div>
       <div>
-        <img src="/assets/CAT2.jpg" alt="" />
+        <img src="/assets/CAT2.jpg" alt="" data-src="/assets/CAT2.jpg" class="lazy-image"/>
         <div class="arrivals">
           <h1>Best-Sellers</h1>
-          <button>SHOP THE LATEST</button>
+          <button onclick="window.location.href='/product page/product.html'">SHOP THE LATEST</button>
         </div>
       </div>
       <div>
-        <img src="/assets/CAT3.jpg" alt="" />
-        <div class="arrivals">
+        <img src="/assets/CAT3.jpg" alt=""  data-src="/assets/CAT3.jpg" class="lazy-image" />
+        <div class="arrivals" >
           <h1>The Holiday Outfit</h1>
-          <button>SHOP OCCASION</button>
+          <button onclick="window.location.href='/product page/product.html'">SHOP OCCASION</button>
         </div>
       </div>
     </div>

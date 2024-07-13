@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Our Blog</title>
-        <!-- css-link -->
-        <link rel="stylesheet" href="blog.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+    <!-- css-link -->
+    <link rel="stylesheet" href="blog.css">
+    <script defer src="blog.js"></script>
 
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"> -->
 
-        <link rel="stylesheet"
-            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    </head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  -->
+    <!-- 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
+</head>
+
+
+<body>
+    <div class="announcement-bar">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            🎉 AMAZING OFFER! 🎉 Enjoy a 100% discount on all our products! Shop now and pay absolutely nothing! Limited
+            time
+            offer!
+        </marquee>
+    </div>
     <header>
         <a href="#" class="logo">VIMMO</a>
 
         <ul class="navmenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="product.html">Collections</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/About/about.html">About</a></li>
+            <li><a href="/product page/product.html">Collections</a></li>
+            <li><a href="/Blog page/blog.html">Blog</a></li>
+            <li><a href="/contact/Contact.html">Contact</a></li>
         </ul>
         <div class="nav-icon">
             <a href="#"><i class='bx bx-search-alt'></i></a>
@@ -41,30 +51,27 @@
 
         </div>
     </header>
-    <body>
-        <!-- section-01-banner -->
-        <section class="summer_styles">
-            <div class="background_image">
-                <img src="Images/background image.jpg"
-                    alt="black lady in a yellow clothes">
-            </div>
-            <div class="image_content">
-                <h1>Style <br> How To Style Summer Yellows</h1>
-                <p>Refine your summer wardrobe with timeless elegance of
-                    summer yellows in this style guide</p>
-            </div>
-
+    <!-- section-01-banner -->
+    <section class="summer_styles">
+        <img src="Images/background image.jpg" alt="black lady in a yellow clothes"
+            data-src="Images/background image.jpg" class="lazy-image">
+        <div class="image_content">
+            <h1>Style <br> How To Style Summer Yellows</h1>
+            <p>Refine your summer wardrobe with timeless elegance of
+                summer yellows in this style guide</p>
         </div>
+
+    </section>
     </section>
     <!-- section-02-text-01-->
     <section class="text_content_1">
         <hr>
         <div>
-            <p>In a season dominated by dark hues. redefine your summer wardrobe
-                with the timeless elegance of the summer yellows.
-                Whether top-to-toe yellow outfits, tonal mixing-and-matching, or
+            <p>In a season dominated by dark hues. redefine your<br /> summer wardrobe
+                with the timeless elegance of the summer yellows.<br />
+                Whether top-to-toe yellow outfits, tonal mixing-and-matching, <br /> or
                 a key yellow piece (or two), give your style a breath
-                of fresh air with this list of summer yellow closet essentials.
+                of fresh air <br /> with this list of summer yellow closet essentials.
 
             </p>
         </div>
@@ -72,91 +79,87 @@
     </section>
     <!-- section-03-image-01 -->
     <section class="image_1">
-        <img src="Images/image_1.jpg" alt="black lady in yellow clothing">
+        <img src="Images/image_1.jpg" alt="black lady in yellow clothing" data-src="Images/image_1.jpg"
+            class="lazy-image">
     </section>
     <!-- section-04-text-02-->
     <section class="text_content_2">
         <div>
             <h1>Nail the Classics</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                debitis, similique aliquid commodi natus distinctio tempore,
-                iusto incidunt eius suscipit magnam ducimus perferendis, ipsum
-                officiis vitae a et corporis sapiente!. Lorem ipsum dolor sit
-                amet consectetur, adipisicing elit. Nam molestiae iure
-                perferendis esse illum, placeat porro. Iste magnam nemo nihil,
-                suscipit ullam fuga consequatur veritatis sit laudantium
-                dignissimos? At, dolorem.</p>
+            <p>Do pure winter chic with a classic cashmere white sweater. Made in the softest cashmere, it’s a sweater
+                that will last season after season. Effortlessly elevating any winter outfit, a white sweater is a must
+                for any capsule collection. Just make sure you keep it clean and stain free, to maintain that clean,
+                polished look. Pair it with dark jeans or Utility Barrel pants for a casual yet refined ensemble, or
+                layer it over a collared shirt for a preppy touch.</p>
             <h1>Monochronmatic Magic</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
-                impedit, aspernatur repellat voluptatum quidem unde sint
-                consequuntur debitis reiciendis numquam non in ab voluptate
-                corporis nostrum nesciunt atque vitae maxime!. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Eaque repudiandae
-                accusamus itaque aliquam sed quaerat amet quis, dolorum laborum
-                corporis ipsam veniam illo deserunt rerum assumenda, odit,
-                eligendi recusandae provident.</p>
+            <p>Nothing feels more luxe than an all-white winter outfit. And the best part? You don’t have to break the
+                bank to create a super chic top-to-toe look. Pair classic corduroy pants in a modern wide-legged
+                silhouette with a relaxed Oxford style white shirt for a mix-and-match texture play.
+                Extra points if you add a white blazer, cardigan, or sweater. Accessorize with subtle metallic accents
+                or a bold red lip for a pop of color, letting your outfit take center stage.</p>
             <h1>Keep Warm in Yellow</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus unde pariatur dolor mollitia eos, laborum, placeat
-                soluta cumque sapiente autem distinctio minus ea voluptatem
-                consequuntur eius magni, illum cum delectus!. Lorem ipsum dolor
-                sit amet consectetur, adipisicing elit. Obcaecati, rerum.
-                Assumenda expedita modi cupiditate ipsam, eum perspiciatis quo
-                ad architecto odio, placeat aperiam voluptates labore
-                accusantium voluptatum nam molestias nostrum!</p>
+            <p>Stay warm all winter long with a white puffer jacket puffer jacket. This durable, cold weather jacket is
+                puffed-up for
+                extra warmth, giving an on-point blown out silhouette. A white coat not only stands out against the sea
+                of dark winter
+                jackets but also provides a fun canvas for experimenting with textures and patterns. Throw on a white
+                coat over a
+                neutral-toned outfit for an easy elegant look.</p>
 
         </div>
     </section>
     <!-- section-05-image-02 -->
     <section class="image_2">
-        <img src="Images/image_2.jpg" alt="black lady in yellow dress">
+        <img src="Images/image_2.jpg" alt="black lady in yellow dress" data-src="Images/image_2.jpg" class="lazy-image">
     </section>
     <!-- section-06-text-03-->
     <section class="text_content_3">
         <div>
             <h1>Texture and layers</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                debitis, similique aliquid commodi natus distinctio tempore,
-                iusto incidunt eius suscipit magnam ducimus perferendis, ipsum
-                officiis vitae a et corporis sapiente!. Lorem ipsum dolor sit
-                amet consectetur, adipisicing elit. Nam molestiae iure
-                perferendis esse illum, placeat porro. Iste magnam nemo nihil,
-                suscipit ullam fuga consequatur veritatis sit laudantium
-                dignissimos? At, dolorem.</p>
+            <p>Winter fashion is all about layering, and white outfits provide the perfect base for playing with
+                textures and layers.
+                Start with your white turtleneck and experiment with different fabrics like wool, cashmere, and silk to
+                add depth and
+                interest to your look. A white silk blouse layered under a chunky knit sweater or a white wool skirt
+                paired with a
+                turtleneck creates a textural look that's both cozy and chic.
+            </p>
             <h1>Accessorize with neutrals</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
-                impedit, aspernatur repellat voluptatum quidem unde sint
-                consequuntur debitis reiciendis numquam non in ab voluptate
-                corporis nostrum nesciunt atque vitae maxime!. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Eaque repudiandae
-                accusamus itaque aliquam sed quaerat amet quis, dolorum laborum
-                corporis ipsam veniam illo deserunt rerum assumenda, odit,
-                eligendi recusandae provident.</p>
+            <p>When working with a predominantly white palette, neutrals become your best friends. From white leather
+                Chelsea boots to
+                off-white beanies mix in plenty of winter-ready accessories and shoes for those finishing outfit tonal
+                touches.
+
+                So, step into the season with confidence, and let your winter whites make a bold and beautiful
+                statement. Shop our
+                winter white edit here.
+            </p>
         </div>
     </section>
     <!-- gallery section -->
     <h1 id="text_edit">The Yellow Breeze Edit</h1>
     <div class="gallery">
-        
+
         <div class="box_1">
             <div class="mini_box">
                 <img src="Images/shoe.jpg" alt="yellow shoe">
                 <p>Yellow casual sneakers <span>$68</span><br>Vans </p>
             </div>
         </div>
-            <div class="box_1">
-                <div class="mini_box">
-                    <img src="Images/Trousers.jpg" alt="yellow shoe">
-                    <p>Instlye yellow trousers <span id="space_2">$88</span><br>Vans </p>
-                </div></div>
-                <div class="box_1">
-                    <div class="mini_box">
-                        <img src="Images/Jacket.jpg" alt="yellow shoe">
-                        <p>Stylish yellow jacket <span id="space_1">$158</span><br>Canvas </p>
-                    </div>
-                </div>
+        <div class="box_1">
+            <div class="mini_box">
+                <img src="Images/Trousers.jpg" alt="yellow shoe">
+                <p>Instlye yellow trousers <span id="space_2">$88</span><br>Vans </p>
             </div>
         </div>
+        <div class="box_1">
+            <div class="mini_box">
+                <img src="Images/Jacket.jpg" alt="yellow shoe">
+                <p>Stylish yellow jacket <span id="space_1">$158</span><br>Canvas </p>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
     <!-- footer-->
     <section class="contact">
@@ -206,4 +209,4 @@
         <p>Copyright © 2024, All Right Reserved.Designed by Miva Group C</p>
     </div>
 
-        </body>
+</body>
